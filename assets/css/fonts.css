@@ -5,6 +5,12 @@
 }
 
 @font-face {
+    font-family: 'Noto Serif HK', serif;
+    font-weight: 100 1000;
+    src: url("../fonts/NotoSerifHK-VariableFont_wght.ttf") format("truetype-variations");
+}
+
+@font-face {
     font-family: "Libre Baskerville";
     font-style: normal;
     font-weight: 400;
@@ -58,4 +64,33 @@
     font-style: italic;
     font-weight: 700;
     src: local(""), url("../fonts/jetbrains-mono-v13-latin-700italic.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local(""), url("../fonts/NotoSansHK-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/NotoSansHK-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../fonts/NotoSansHK-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/NotoSansHK-Bold.otf") format("opentype");
 }
